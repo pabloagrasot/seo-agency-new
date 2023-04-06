@@ -7,7 +7,7 @@
     let servicios = ['Auditoría SEO','Consultoría SEO', 'SEO Local', 'Acompañamiento SEO', 'Migración web', 'Contenidos SEO']
 </script>
 
-<div class="bg-white dark:bg-slate-900/100 lg:dark:bg-slate-800 {dropdownDisplay}">
+<div class="bg-white dark:bg-slate-900/100 lg:dark:bg-slate-800 z-30 {dropdownDisplay}">
     {#each servicios as item}
         <a href="/">{item}</a>
     {/each}

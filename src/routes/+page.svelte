@@ -1,6 +1,7 @@
 
 <script>
-    import Header from '../components/header.svelte';
+    import Equipo from '../components/equipo.svelte';
+import Header from '../components/header.svelte';
 	// @ts-ignore
 	import Hero from '../components/hero-home.svelte';
     import HomeSectionServices from '../components/home-section-services.svelte';
@@ -12,3 +13,4 @@
 <Hero />
 <HomeSectionServices />
 <Ventajas />
+<Equipo />
