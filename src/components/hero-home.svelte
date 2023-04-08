@@ -43,8 +43,8 @@
                         class="mb-16 lg:mb-0"
                     >
                         <a
-                            href="signup.html"
-                            class="text-white bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-md a4 a15 aS a16 a17 a18 az aE aI hover:a19 lg:a14"
+                            href="#name"
+                            class="text-white bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-md"
                         >
                             Miniauditoría Gratis →
                         </a>

@@ -75,10 +75,10 @@
       >
     </div>
 
-    <div class="flex flex-wrap items-center">
+    <div class="flex flex-wrap items-center mt-8 bg-gradient-to-br from-slate-400/[0.2] to-indigo-400/[0.1] dark:from-slate-900/[0.2] dark:to-indigo-900/[0.1]">
       <div class="w-full lg:w-6/12 px-3 mt-6">
         <div class="relative w-full h-[560px] md:pb-2">
-          <div class="absolute top-12 lg:top-auto lg:bottom-0 left-0">
+          <div class="absolute bottom-1/2 lg:left-0	translate-y-1/2	">
             <picture>
               <source src={AVIF} type="image/avif" />
               <img class="relative bottom-0 left-0 z-20" src={JPG} alt="poscionamiento SEO" />
@@ -98,13 +98,13 @@
 
 
         <div
-          class="md:max-w-[530px] text-left lg:ml-0 lg:mr-auto max-[440px]:-mt-16 mt-16 lg:mt-0 lg:px-4 xl:px-0"
+          class="md:max-w-[530px] text-left lg:ml-0 lg:mr-auto max-[440px]:-mt-8 mt-16 lg:mt-0 lg:px-4 xl:px-0"
         >
-          <h1
+          <h3
             class="mb-5	text-[2.5rem] md:text-[50px] text-slate-800 font-bold leading-none dark:text-indigo-50"
           >
             Objetivos
-          </h1>
+          </h3>
           <p class="mb-12	">
             Handcrafted Tailwind CSS template for your next - Startup, Business,
             Agency or SaaS Website. Comes with refreshing design and everything
@@ -117,11 +117,11 @@
         <div
           class="md:max-w-[530px] text-left lg:ml-0 lg:mr-auto max-[440px]:-mt-16 mt-16 lg:mt-0 lg:px-4 xl:px-0"
         >
-          <h1
+          <h3
             class="mb-5	text-[2.5rem] md:text-[50px] text-slate-800 font-bold leading-none dark:text-indigo-50"
           >
             Metodología
-          </h1>
+          </h3>
           <p class="mb-12	">
             Handcrafted Tailwind CSS template for your next - Startup, Business,
             Agency or SaaS Website. Comes with refreshing design and everything
@@ -137,11 +137,11 @@
         <div
           class="md:max-w-[530px] text-left lg:ml-0 lg:mr-auto max-[440px]:-mt-16 mt-16 lg:mt-0 lg:px-4 xl:px-0"
         >
-          <h1
+          <h3
             class="mb-5	text-[2.5rem] md:text-[50px] text-slate-800 font-bold leading-none dark:text-indigo-50"
           >
             Seguimiento
-          </h1>
+          </h3>
           <p class="mb-12	">
             Handcrafted Tailwind CSS template for your next - Startup, Business,
             Agency or SaaS Website. Comes with refreshing design and everything
