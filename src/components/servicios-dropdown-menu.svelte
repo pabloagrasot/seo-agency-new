@@ -26,6 +26,7 @@
   flex-direction: column;
   gap: 0.5rem;
   width: 15rem;
+  z-index: 30;
 }
 
 a:hover{

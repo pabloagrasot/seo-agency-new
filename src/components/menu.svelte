@@ -49,12 +49,13 @@
             document.documentElement.classList.remove("dark");
             darkMode = false;
         }
-    }
+        
+    }   
 </script>
 
 <div class="w-full xl:px-20 lg:px-10 px-5 flex items-center">
     <div class="z-[99] w-full lg:max-w-[250px] xl:max-w-[330px]">
-        <a href="7" class="af">
+        <a href="7">
             {#if !darkMode}
                 <picture>
                     <source srcset={logoAVIF} type="image/avif" />

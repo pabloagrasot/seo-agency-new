@@ -4,7 +4,7 @@
     >
       <div class="mx-auto max-w-2xl lg:text-center px-3 relative">
         <h2
-          class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-indigo-600 uppercase text-[75px] max-[400px]:text-[50px] font-extrabold	z-0"
+          class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-indigo-600 uppercase text-[75px] max-[500px]:text-[60px] max-[400px]:text-[45px] font-extrabold	z-0"
         >
           Empleamos
         </h2>

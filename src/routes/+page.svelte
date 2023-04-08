@@ -9,6 +9,7 @@ import Header from '../components/header.svelte';
     import Logos from "../components/logos.svelte";
   import Faqs from '../components/faqs.svelte';
   import Contacto from '../components/contacto.svelte';
+  import Footer from '../components/footer.svelte';
 		
 </script>
 
@@ -20,3 +21,4 @@ import Header from '../components/header.svelte';
 <Faqs />
 <Logos />
 <Contacto />
+<Footer />
