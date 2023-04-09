@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="absolute bottom-0 left-0">
-                            <video class="relative bottom-0 left-0 z-20" preload="auto" autoplay loop src={video}><track kind="captions"/></video>
+                            <video class="relative bottom-0 left-0 z-20" preload="auto" autoplay loop muted src={video}><track kind="captions"/></video>
                             <div class="transparent-box bg-white/[0.1] w-full h-full absolute md:-right-5 -top-5 z-10"></div>
                     </div>
             </div>
