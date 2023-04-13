@@ -10,8 +10,8 @@ sgMail.setApiKey(api);
 // @ts-ignore
 export async function get(page) {
       const msg = {
-        to: "test@example.com",
-        from: "test@example.com",
+        to: "info@seo-agency.es",
+        from: "info@seo-agency.es",
         subject: "Sending with SendGrid is Fun",
         text: "and easy to do anywhere, even with Node.js",
         html: "<strong>and easy to do anywhere, even with Node.js</strong>",
