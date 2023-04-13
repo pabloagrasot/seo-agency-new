@@ -1,4 +1,10 @@
-<form class="px-3 max-w-[780px] mx-auto mt-32">
+<script>
+  function submitForm() {
+    fetch("/api/sendmail");
+  }
+</script>
+
+<form on:submit|preventDefault={submitForm} class="px-3 max-w-[780px] mx-auto mt-32">
   <div class="space-y-12">
       <div class="border-b focus:border-b focus:border-slate-800 dark:focus:border-indigo-50 focus:caret-slate-800 dark:focus:caret-indigo-50 border-gray-900/10 pb-12">
   
