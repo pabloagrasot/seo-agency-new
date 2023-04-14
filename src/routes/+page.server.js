@@ -2,7 +2,7 @@
 import { fail, redirect } from '@sveltejs/kit'
 import sgMail from "@sendgrid/mail";
 let api = process.env.API_SENDGRID
-sgMail.setApiKey("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");
+sgMail.setApiKey(api);
 
 export const actions = {
     contactus: async ({request}) => {
