@@ -55,7 +55,7 @@
 
 <div class="w-full xl:px-20 lg:px-10 px-5 flex items-center">
     <div class="z-[99] w-full lg:max-w-[250px] xl:max-w-[330px]">
-        <a href="7">
+        <a href="/">
             {#if !darkMode}
                 <picture>
                     <source srcset={logoAVIF} type="image/avif" />
@@ -136,7 +136,7 @@
         </div>
         <div class="a1 a10 a3 a5 a4 a9 a11 a12 a13 ao lg:aq lg:a14 lg:aw lg:au">
             <a
-                href="signup.html"
+                href="#contact-section"
                 class="text-white bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-md a4 a15 aS a16 a17 a18 az aE aI hover:a19 lg:a14"
             >
                 Contacto

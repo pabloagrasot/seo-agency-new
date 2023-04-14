@@ -46,7 +46,7 @@
 		{/if}
 
 		{#if item == 'Contacto'}
-			<a class="text-white bg-indigo-600 px-6 py-3 rounded-md menu-link" href="/">{item}</a>
+			<a class="text-white bg-indigo-600 px-6 py-3 rounded-md menu-link" href="#contact-section">{item}</a>
 		{/if}
 
 		{#if item == 'Servicios'}

@@ -1,10 +1,8 @@
 <script>
-  function submitForm() {
-    fetch("/api/sendmail");
-  }
+// @ts-nocheck
 </script>
 
-<form on:submit|preventDefault={submitForm} class="px-3 max-w-[780px] mx-auto mt-32">
+<form method="post" action="?/contactus" class="px-3 max-w-[780px] mx-auto mt-32">
   <div class="space-y-12">
       <div class="border-b focus:border-b focus:border-slate-800 dark:focus:border-indigo-50 focus:caret-slate-800 dark:focus:caret-indigo-50 border-gray-900/10 pb-12">
   
@@ -41,7 +39,7 @@
           <div class="col-span-full">
             <label for="message" class="block text-base text-slate-800 dark:text-indigo-50 font-medium mb-3">Mensaje</label>
             <div>
-              <textarea required rows=4 placeholder="Escribe el mensaje" name="message" id="message" autocomplete="message" class="block w-full py-5 resize-none	ring-0 focus:ring-0 border-0 focus:border-0 border-b focus:border-b focus:border-slate-800 dark:focus:border-indigo-50 focus:caret-slate-800 dark:focus:caret-indigo-50 text-slate-800 dark:text-indigo-50 text-base bg-transparent px-0"> </textarea>
+              <textarea required rows=4 placeholder="Escribe el mensaje" name="message" id="message" autocomplete="message" class="block w-full py-5 resize-none	ring-0 focus:ring-0 border-0 focus:border-0 border-b focus:border-b focus:border-slate-800 dark:focus:border-indigo-50 focus:caret-slate-800 dark:focus:caret-indigo-50 text-slate-800 dark:text-indigo-50 text-base bg-transparent px-0"></textarea>
             </div>
           </div>
 

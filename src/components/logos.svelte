@@ -4,12 +4,12 @@
     >
       <div class="mx-auto max-w-2xl lg:text-center px-3 relative">
         <h2
-          class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-indigo-600 uppercase text-[75px] max-[500px]:text-[60px] max-[400px]:text-[45px] font-extrabold	z-0"
+          class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-center text-indigo-600 uppercase text-[75px] max-[500px]:text-[60px] max-[400px]:text-[45px] font-extrabold	z-0"
         >
           Empleamos
         </h2>
         <p
-          class="mt-2 text-3xl font-bold tracking-tight dark:text-indigo-50 text-gray-900 sm:text-4xl z-10"
+          class="mt-2 text-3xl font-bold tracking-tight text-center dark:text-indigo-50 text-gray-900 sm:text-4xl z-10"
         >
           las mejores herramientas del sector
         </p>

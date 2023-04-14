@@ -2,7 +2,7 @@
   import Form from "./form.svelte";
 
 </script>
-<section class="py-16 lg:py-24">
+<section class="py-16 lg:py-24" id="contact-section">
     <div class="w-full xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[530px] mx-auto">
 
         
@@ -11,12 +11,12 @@
               <div class="md:pb-2">
                 <div class="mx-auto max-w-2xl px-3">
                     <h2
-                      class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-indigo-600 uppercase text-[75px] max-[400px]:text-[50px] font-extrabold	z-0"
+                      class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-indigo-600 uppercase text-center text-[75px] max-[400px]:text-[50px] font-extrabold	z-0"
                     >
                       Contacto
                     </h2>
                     <p
-                      class="mt-2 text-3xl font-bold tracking-tight dark:text-indigo-50 text-gray-900 sm:text-4xl z-10"
+                      class="mt-2 text-3xl font-bold tracking-tight dark:text-indigo-50 text-gray-900 sm:text-4xl z-10 text-center"
                     >
                       necesitas que te ayudemos?
                     </p>

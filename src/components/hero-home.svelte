@@ -43,7 +43,7 @@
                         class="mb-16 lg:mb-0"
                     >
                         <a
-                            href="#name"
+                            href="#contact-section"
                             class="text-white bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-md"
                         >
                             Miniauditoría Gratis →
