@@ -3,7 +3,14 @@
     import video from '$lib/images/video-seo.mp4';
     import heroJPG from '$lib/images/hero-img.jpg';
     import heroAVIF from '$lib/images/hero-img.avif';
-
+    /**
+     * @type {string}
+     */
+     export let h1
+     /**
+     * @type {string}
+     */
+      export let textoHeader
 </script>
 
 <section
@@ -31,13 +38,10 @@
                     <h1
                         class="mb-5	text-[2.5rem] md:text-[50px] text-slate-800 font-bold leading-none dark:text-indigo-50"
                     >
-                        Posicionamiento Web en Madrid
+                        {h1}
                     </h1>
                     <p class="mb-12	">
-                        Handcrafted Tailwind CSS template for your next -
-                        Startup, Business, Agency or SaaS Website. Comes with
-                        refreshing design and everything you need to kickstart
-                        your next web project.
+                       {textoHeader}
                     </p>
                     <div
                         class="mb-16 lg:mb-0"

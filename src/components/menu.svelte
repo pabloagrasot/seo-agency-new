@@ -55,7 +55,8 @@
 
 <div class="w-full xl:px-20 lg:px-10 px-5 flex items-center">
     <div class="z-[99] w-full lg:max-w-[250px] xl:max-w-[330px]">
-        <a href="/">
+        <!-- svelte-ignore a11y-invalid-attribute -->
+        <a href="#">
             {#if !darkMode}
                 <picture>
                     <source srcset={logoAVIF} type="image/avif" />
@@ -113,7 +114,7 @@
                             <!-- svelte-ignore a11y-invalid-attribute -->
                             <!-- svelte-ignore a11y-missing-attribute -->
                             <!-- svelte-ignore a11y-click-events-have-key-events -->
-                            <li>
+                           <!--  <li>
                                
                                 <a
                                     on:click={() =>
@@ -128,8 +129,8 @@
                                             : ""}
                                     />
                                 </a>
-                            </li>
-                        {/if}
+                            </li> -->
+                        {/if} 
                     {/each}
                 </ul>
             </nav>

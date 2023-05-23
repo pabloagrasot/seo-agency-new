@@ -6,6 +6,14 @@
   import jesusAVIF from "$lib/images/jesus.avif";
   import pabloJPG from "$lib/images/pablo.png";
   import pabloAVIF from "$lib/images/pablo.avif";
+  /**
+     * @type {string}
+     */
+   export let nosotrosHeading
+     /**
+     * @type {string}
+     */
+  export let nosotrosText
   
 </script>
 
@@ -22,12 +30,10 @@
       <p
         class="mt-2 text-3xl font-bold tracking-tight text-center dark:text-indigo-50 text-gray-900 sm:text-4xl z-10"
       >
-        Meet With Our Creative Dedicated Team
+        {nosotrosHeading}
       </p>
       <p class="mt-6 text-lg leading-8 ">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
-        tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
-        maximus.
+        {nosotrosText}
       </p>
     </div>
 

@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   import JPG from "$lib/images/hero-img.jpg";
   import AVIF from "$lib/images/hero-img.avif";
 
@@ -31,6 +33,12 @@
         
   }
 
+export let ventajasHeading
+export let ventajasText
+export let objetivos
+export let metodologias
+export let seguimiento
+
 </script>
 
 <section class="py-16 lg:py-20">
@@ -46,12 +54,10 @@
       <p
         class="mt-2 text-3xl font-bold tracking-tight text-center dark:text-indigo-50 text-gray-900 sm:text-4xl z-10"
       >
-        Everything you need to deploy your app
+        {ventajasHeading}
       </p>
       <p class="mt-6 text-lg leading-8 ">
-        Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-        Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In
-        mi viverra elit nunc.
+        {ventajasText}
       </p>
     </div>
 
@@ -106,9 +112,7 @@
             Objetivos
           </h3>
           <p class="mb-12	">
-            Handcrafted Tailwind CSS template for your next - Startup, Business,
-            Agency or SaaS Website. Comes with refreshing design and everything
-            you need to kickstart your next web project.
+            {objetivos}
           </p>
         </div>
 
@@ -123,9 +127,7 @@
             Metodología
           </h3>
           <p class="mb-12	">
-            Handcrafted Tailwind CSS template for your next - Startup, Business,
-            Agency or SaaS Website. Comes with refreshing design and everything
-            you need to kickstart your next web project.
+            {metodologias}
           </p>
         </div>
 
@@ -143,9 +145,7 @@
             Seguimiento
           </h3>
           <p class="mb-12	">
-            Handcrafted Tailwind CSS template for your next - Startup, Business,
-            Agency or SaaS Website. Comes with refreshing design and everything
-            you need to kickstart your next web project.
+            {seguimiento}
           </p>
         </div>
 

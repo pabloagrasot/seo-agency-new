@@ -64,7 +64,7 @@
 			/>
 		{:else if item == 'Soluciones'}
 			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a
+		<!--	<a
 				on:click={() => (displayDropdownSoluciones = !displayDropdownSoluciones)}
 				class="menu-link menu-dropdown"
 				href="#"
@@ -74,7 +74,7 @@
 
 			<SolucionesDropdow
 				dropdownDisplay={displayDropdownSoluciones ? 'display-dropdown__true' : ''}
-			/>
+			/> -->
 		{/if}
 	{/each}
 </nav>

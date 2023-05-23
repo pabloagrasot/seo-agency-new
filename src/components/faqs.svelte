@@ -1,26 +1,11 @@
 <script>
-  const preguntas = [
-    {
-      pregunta: "What if I need more time after the free trial?",
-      respuesta:
-        "Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.",
-    },
-    {
-      pregunta: "What if I need more time after the free trial?",
-      respuesta:
-        "Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.",
-    },
-    {
-      pregunta: "What if I need more time after the free trial?",
-      respuesta:
-        "Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.",
-    },
-    {
-      pregunta: "What if I need more time after the free trial?",
-      respuesta:
-        "Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.",
-    },
-  ];
+// @ts-nocheck
+
+  // @ts-ignore
+  export let preguntasText
+
+
+   export let preguntas
 </script>
 
 <section class="py-16 lg:py-24">
@@ -39,9 +24,7 @@
         Preguntas frecuentes
       </p>
       <p class="mt-6 text-lg leading-8 ">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
-        tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
-        maximus.
+        {preguntasText}
       </p>
     </div>
 
@@ -52,7 +35,11 @@
             class="cursor-pointer font-semibold text-lg dark:text-white text-gray-900 flex justify-between"
             ><h3>{pregunta.pregunta}</h3></summary
           >
-          <p class="mt-8">{pregunta.respuesta}</p>
+          <div class="mt-8">
+            {#each pregunta.respuesta as parrafos}
+            <p class="mb-4">{parrafos}</p>
+            {/each}
+          </div>
         </details>
       {/each}
     </div>
