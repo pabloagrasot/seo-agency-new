@@ -1,17 +1,5 @@
 <script>
-	import ServiciosDropdow from './servicios-dropdown-menu.svelte';
-	import SolucionesDropdow from './soluciones-dropdown-menu.svelte';
-
-	const menu = [
-		'Posicionamiento Web',
-		'Consultores SEO',
-		'Servicios',
-		'Soluciones',
-		'Contacto'
-	];
 	let activeClass = false;
-	let displayDropdownServicios = false;
-	let displayDropdownSoluciones = false;
 </script>
 
 <div class:active={activeClass} class="lg:hidden block">
@@ -40,43 +28,15 @@
 
 <nav class="bg-white dark:bg-slate-900/100" class:active={activeClass}>
 
-	{#each menu as item}
-		{#if item != 'Servicios' && item != 'Soluciones' && item != 'Contacto'}
-			<a class="menu-link" href="/">{item}</a>
-		{/if}
+		
+	<a class="menu-link" href="#servicios">Servicios</a>
+	<a class="menu-link" href="#ventajas">Ventajas</a>
+	<a class="menu-link" href="#nosotros">Nosotros</a>
+	<a class="menu-link" href="#faqs">FAQs</a>
+	<a class="text-white bg-indigo-600 px-6 py-3 rounded-md menu-link" href="#contact-section">Contacto</a>
+		
 
-		{#if item == 'Contacto'}
-			<a class="text-white bg-indigo-600 px-6 py-3 rounded-md menu-link" href="#contact-section">{item}</a>
-		{/if}
-
-		{#if item == 'Servicios'}
-			<!-- svelte-ignore a11y-invalid-attribute -->
-			<a
-				on:click={() => (displayDropdownServicios = !displayDropdownServicios)}
-				class="menu-link menu-dropdown"
-				href="#"
-				>{item}
-				<span class:close={displayDropdownServicios}>&#x2716;</span>
-			</a>
-
-			<ServiciosDropdow
-				dropdownDisplay={displayDropdownServicios ? 'display-dropdown__true' : ''}
-			/>
-		{:else if item == 'Soluciones'}
-			<!-- svelte-ignore a11y-invalid-attribute -->
-		<!--	<a
-				on:click={() => (displayDropdownSoluciones = !displayDropdownSoluciones)}
-				class="menu-link menu-dropdown"
-				href="#"
-				>{item}
-				<span class:close={displayDropdownSoluciones}>&#x2716;</span>
-			</a>
-
-			<SolucionesDropdow
-				dropdownDisplay={displayDropdownSoluciones ? 'display-dropdown__true' : ''}
-			/> -->
-		{/if}
-	{/each}
+		
 </nav>
 
 <style>
@@ -157,15 +117,6 @@
 	}
 	.ham6.active .bottom {
 		stroke-dashoffset: -132px;
-	}
-
-	span {
-		display: none;
-	}
-
-	span.close {
-		display: block;
-		margin-left: 1rem;
 	}
 
 </style>

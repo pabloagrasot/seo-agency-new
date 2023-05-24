@@ -10,7 +10,7 @@
   export let contenidos
 </script>
 
-<section class="py-16 lg:py-20 mt-24">
+<section id="servicios" class="py-16 lg:py-20 mt-24">
     <div class="w-full xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[530px] mx-auto">
       <div class="mx-auto max-w-2xl lg:text-center px-3 relative">
         <h2 class="section-h2 leading-[4rem] -mb-5 max-[400px]:-mb-8 text-center text-indigo-600 uppercase text-[75px] max-[400px]:text-[55px] font-extrabold	z-0">Servicios</h2>

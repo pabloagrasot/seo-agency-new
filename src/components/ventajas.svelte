@@ -1,20 +1,31 @@
 <script>
 // @ts-nocheck
 
-  import JPG from "$lib/images/hero-img.jpg";
-  import AVIF from "$lib/images/hero-img.avif";
+  import metodologiaJPG from "$lib/images/metodologia.jpg";
+  import metodologiaAVIF from "$lib/images/metodologia.avif";
+
+  
+  import objetivosJPG from "$lib/images/objetivos.jpg";
+  import objetivosAVIF from "$lib/images/objetivos.avif";
+
+  import seguimientoJPG from "$lib/images/seguimiento.jpg";
+  import seguimientoAVIF from "$lib/images/seguimiento.avif";
 
   $: displayObjetivos = true;
   $: displayMetodologia = false;
   $: displaySeguimiento = false;
 
   let border = "border-b-indigo-600"
+  let fotoJPG = objetivosJPG
+  let fotoAVIF = objetivosAVIF
 
   const handleDisplayObjetivos = () =>{
         displayObjetivos = true;
         displayMetodologia =false;
         displaySeguimiento = false;
         border = "border-b-indigo-600"
+        fotoJPG = objetivosJPG
+        fotoAVIF = objetivosAVIF
        
   }
 
@@ -23,6 +34,8 @@
         displayMetodologia = true;
         displaySeguimiento =false;
         border = ""
+        fotoJPG = metodologiaJPG
+        fotoAVIF = metodologiaAVIF
   }
 
   const handleDisplaySeguimiento = () =>{
@@ -30,6 +43,8 @@
         displayMetodologia = false;
         displaySeguimiento = true;
         border = ""
+        fotoJPG = seguimientoJPG
+        fotoAVIF = seguimientoAVIF
         
   }
 
@@ -41,7 +56,7 @@ export let seguimiento
 
 </script>
 
-<section class="py-16 lg:py-20">
+<section id="ventajas" class="py-16 lg:py-20">
   <div
     class="w-full xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[530px] mx-auto"
   >
@@ -86,8 +101,8 @@ export let seguimiento
         <div class="relative w-full h-[560px] md:pb-2">
           <div class="absolute bottom-1/2 lg:left-0	translate-y-1/2	">
             <picture>
-              <source src={AVIF} type="image/avif" />
-              <img class="relative bottom-0 left-0 z-20" src={JPG} alt="poscionamiento SEO" />
+              <source src={fotoAVIF} type="image/avif" />
+              <img class="relative bottom-0 left-0 z-20" src={fotoJPG} alt="poscionamiento SEO" />
             </picture>
             <div
               class="transparent-box bg-white/[0.1] w-full h-full absolute md:-right-5 -top-5 z-10"

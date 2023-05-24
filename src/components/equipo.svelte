@@ -17,7 +17,7 @@
   
 </script>
 
-<section class="py-16 lg:py-24">
+<section id="nosotros" class="py-16 lg:py-24">
   <div
     class="w-full xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[530px] mx-auto"
   >

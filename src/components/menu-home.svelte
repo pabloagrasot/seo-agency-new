@@ -70,28 +70,21 @@
             {/if}
         </a>
     </div>
-    <div class="w-full lg:flex auto flex-start hidden">
+    <div class="w-full flex auto flex-start">
         <div class="self-center w-full">
             <nav>
                 <ul
-                    class="flex gap-8 w-full navbar a5 ax a9 am ay az lg:aA lg:as lg:aB lg:aC"
+                    class="flex gap-8 w-full navbar"
                 >
-                   
-                            <li><a class="font-semibold tracking-wide menu-link hover:text-indigo-500" href="#servicios">Servicios</a></li>
-                            <li><a class="font-semibold tracking-wide menu-link hover:text-indigo-500" href="#ventajas">Ventajas</a></li>
-                            <li><a class="font-semibold tracking-wide menu-link hover:text-indigo-500" href="#nosotros">Nosotros</a></li>
-                            <li><a class="font-semibold tracking-wide menu-link hover:text-indigo-500" href="#faqs">FAQs</a></li>
-
-                
-                        
+        
     
                 </ul>
             </nav>
         </div>
-        <div class="a1 a10 a3 a5 a4 a9 a11 a12 a13 ao lg:aq lg:a14 lg:aw lg:au">
+        <div >
             <a
                 href="#contact-section"
-                class="text-white bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-md a4 a15 aS a16 a17 a18 az aE aI hover:a19 lg:a14"
+                class="text-white bg-indigo-600 hover:bg-indigo-500 px-6 py-3 rounded-md"
             >
                 Contacto
             </a>
@@ -107,6 +100,4 @@
             {/if}
         </a>
     </div>
-
-    <Hamburguer />
 </div>

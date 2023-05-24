@@ -3,7 +3,10 @@
     import Logos from "../../components/logos.svelte";
     import Footer from '../../components/footer.svelte';
 </script>
-
+<svelte:head>
+    <title>Gracias por contactar con nosotros</title>
+    <meta name="google-site-verification" content="n0ZFKdOvwB49lkXllfSfFmo05BQBb-XL4XuJeckC5YY" />
+</svelte:head>
 <Header />
 <section class="py-16 lg:py-24">
     <div

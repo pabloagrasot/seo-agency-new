@@ -1,3 +1,10 @@
+<script>
+   import semrush from "$lib/images/semrush.png";
+   import sixtrix from "$lib/images/sixtrix.png";
+   import screaming from "$lib/images/screaming-frog.png";
+   import ga4 from "$lib/images/ga4.png";
+   import searchConsole from "$lib/images/google-search-console.png";
+</script>
 <section class="py-16 lg:py-24">
     <div
       class="w-full xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[530px] mx-auto"
@@ -14,9 +21,7 @@
           las mejores herramientas del sector
         </p>
         <p class="mt-6 text-lg leading-8 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis
-          tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in
-          maximus.
+          Utilizamos todo tipo de herramientas SEO y de monitorización para hacer un seguimiento real del estado de nuestros clientes para garantizar los mejores resultados
         </p>
       </div>
 
@@ -25,36 +30,36 @@
   >
     <img
       class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-      src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-      alt="Transistor"
+      src={semrush}
+      alt="Semrush"
       width="158"
       height="48"
     />
     <img
       class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-      src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
-      alt="Reform"
+      src={sixtrix}
+      alt="Sixtrix"
       width="158"
       height="48"
     />
     <img
       class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-      src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-      alt="Tuple"
+      src={screaming}
+      alt="Screaming Frog"
       width="158"
       height="48"
     />
     <img
       class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-      src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-      alt="SavvyCal"
+      src={ga4}
+      alt="ga4"
       width="158"
       height="48"
     />
     <img
       class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-      src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-      alt="Statamic"
+      src={searchConsole}
+      alt="Google Search Console"
       width="158"
       height="48"
     />

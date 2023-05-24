@@ -3,8 +3,8 @@
   import Equipo from '../../components/equipo.svelte';
   import Header from '../../components/header.svelte';
 	// @ts-ignore
-	import Hero from '../../components/hero-home.svelte';
-  import HomeSectionServices from '../../components/home-section-services.svelte';
+	import Hero from '../../components/hero.svelte';
+  import HomeSectionServices from '../../components/services.svelte';
   import Ventajas from '../../components/ventajas.svelte';
   import Logos from "../../components/logos.svelte";
   import Faqs from '../../components/faqs.svelte';
@@ -18,6 +18,7 @@
 
 <svelte:head>
     <title>{data.title}</title>
+    <meta name="google-site-verification" content="n0ZFKdOvwB49lkXllfSfFmo05BQBb-XL4XuJeckC5YY" />
 </svelte:head>
 
 <Header />
