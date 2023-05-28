@@ -31,6 +31,25 @@
               <a href="/agencia-seo-alicante">Agencia de SEO en Alicante</a>
             </h2>
           </div>
+
+          <div class="relative px-12 py-12 bg-indigo-500/[0.2] dark:bg-white/[0.1]">
+            <h2 class="text-gray-900 dark:text-white text-[30px] max-[400px]:text-[33px] text-center">
+              <a href="/agencia-seo-malaga">Agencia de SEO en Málaga</a>
+            </h2>
+          </div>
+
+          <div class="relative px-12 py-12 bg-indigo-500/[0.2] dark:bg-white/[0.1]">
+            <h2 class="text-gray-900 dark:text-white text-[30px] max-[400px]:text-[33px] text-center">
+              <a href="/agencia-seo-valencia">Agencia de SEO en Valencia</a>
+            </h2>
+          </div>
+
+          <div class="relative px-12 py-12 bg-indigo-500/[0.2] dark:bg-white/[0.1]">
+            <h2 class="text-gray-900 dark:text-white text-[30px] max-[400px]:text-[33px] text-center">
+              <a href="/agencia-seo-mallorca">Agencia de SEO en Mallorca</a>
+            </h2>
+          </div>
+
         </dl>
       </div>
     </div>
