@@ -70,12 +70,6 @@
             </h2>
           </div>
 
-          <div class="relative px-12 py-12 bg-indigo-500/[0.2] dark:bg-white/[0.1]">
-            <h2 class="text-gray-900 dark:text-white text-[30px] max-[400px]:text-[33px] text-center">
-              <a href="/agencia-seo-test">Agencia de SEO Test</a>
-            </h2>
-          </div>
-
         </dl>
       </div>
     </div>
